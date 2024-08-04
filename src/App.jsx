@@ -20,7 +20,7 @@ function App() {
       <div className="border-b-2 border-black">
         <button
           onClick={() => setOpenModal(true)}
-          className="bg-red-500 rounded-md p-2 m-4 text-white bold"
+          className="bg-blue-500 rounded-md p-2 m-4 text-white bold"
         >
           Add new product
         </button>
