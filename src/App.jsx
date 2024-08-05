@@ -9,7 +9,10 @@ function App() {
     <div>
       {openModal ? (
         <Modal>
-          <div className="bg-yellow-500 w-2/6 rounded-md p-4">
+          <div
+            className="bg-red
+          -500 w-2/6 rounded-md p-4"
+          >
             <div className="flex justify-end">
               <ImCross onClick={() => setOpenModal(false)} />
             </div>
