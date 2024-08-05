@@ -25,7 +25,7 @@ function App() {
           onClick={() => setOpenModal(true)}
           className="bg-blue-500 rounded-md p-2 m-4 text-white bold"
         >
-          Add new product
+          {/* Add new product */} new product
         </button>
       </div>
       <Card />
